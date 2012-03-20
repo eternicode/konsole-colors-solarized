@@ -13,7 +13,7 @@ Copy the selected colorscheme(Light or Dark) into your Konsole directory.
 The below example adds the dark color scheme when konsole is installed in `/usr/share/kde4/apps/konsole`  .
 
 ~~~~{.bash}
-curl -so /usr/share/kde4/apps/konsole https://raw.github.com/eternicode/konsole-colors-solarized/master/SolarizedDark.colorscheme
+curl -o /usr/share/kde4/apps/konsole/SolarizedDark.colorscheme https://raw.github.com/eternicode/konsole-colors-solarized/master/SolarizedDark.colorscheme
 ~~~~
 
 Afterwards, enable the color scheme in the konsole configuration.
